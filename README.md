@@ -14,7 +14,6 @@ Note :
 
 	| Selenium WebDriver|3.141| It automates the testing of web application.|
 	| TestNG|7.3.0|To run the tests as a suite.|
-	| APACHE Commons IO|2.8.0|To perform file opeartions.|
 	| webdrivermanager|4.3.1| WebDriverManager is a library which allows to automate the management of the drivers (e.g. _chromedriver_, _geckodriver_, etc.) required by Selenium WebDriver. [bonigarcia/webdrivermanager: Automated driver management for Selenium WebDriver (github.com)](https://github.com/bonigarcia/webdrivermanager#basic-usage)|
 
 
@@ -76,8 +75,9 @@ Note :
  1. ### Download Dependencies
 
 	-Java JDK 20 must be installed- https://www.oracle.com/java/technologies/downloads/
-	-IDE(intellij idea preferable)
-    - Open the project with your IDE, open pom.xml and download from maven 
+	- IDE(intellij idea preferable)
+        - Open the project with your IDE, open pom.xml and download from maven 
+        - Change the credentials on credentials.properties and YahooPage.java
  
 
  2. ### Project structure
@@ -140,4 +140,6 @@ Note :
 7. ### Limitations ###
 - If the Error message for same jpg file upload appears, the tests dont work.
 - Works on Chrome, need modifications to run on other browsers
+8.###Demo Video###
+- A demo video showing the automation framework on work is included in test-output folder
 
