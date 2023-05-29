@@ -28,9 +28,6 @@ public class MacromboxTest {
     ValueUpdatePage valueUpdatePage;
     YahooPage yahooPage;
 
-
-
-
     @BeforeClass
     public void setUp() throws InterruptedException, AWTException {
         WebDriverManager.chromedriver().setup();
@@ -170,9 +167,9 @@ public class MacromboxTest {
         };
     }
 
-//    @AfterClass
-//    public void tearDown() {
-//        // Quit the WebDriver instance
-//        driver.quit();
-//    }
+    @AfterClass
+    public void tearDown() {
+        // Quit the WebDriver instance
+        driver.quit();
+    }
 }
